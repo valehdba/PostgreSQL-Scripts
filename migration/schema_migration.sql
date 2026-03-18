@@ -1,4 +1,5 @@
---migrata all tables with data to other schema
+-- migrate all tables with data from source_schema to target_schema schema
+-- moves the table and its data, indexes, constraints, and triggers in place. No copying involved.
 DO $$
 DECLARE
     r RECORD;
