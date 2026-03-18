@@ -1,3 +1,4 @@
+--migrates all sequences from source schema to target schema
 DO $$
   DECLARE
       r RECORD;
